@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCheckSumSolution", "StringCheckSumSolution.csproj", "{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88C46BAE-DC3C-4348-9FEC-8CF1DC85ADF8}
+	EndGlobalSection
+EndGlobal
