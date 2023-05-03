@@ -9,7 +9,7 @@ public static class CheckerConsole
         Console.Write("StringSum: ");
         try
         {
-            Console.WriteLine(CheckerHandler.StringSum(str));
+            Console.WriteLine(CheckerHandler.Sum(str));
         }
         catch (Exception e)
         {

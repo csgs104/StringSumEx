@@ -3,7 +3,7 @@ using StringCheckSumSolution;
 
 namespace StringCheckSumSolution.Checkers;
 
-public class NumberChecker : Checker
+public class IntegerChecker : Checker
 {
     public override (bool, string) CheckString(string[] strs)
     {
