@@ -4,18 +4,14 @@ namespace StringCheckSumSolution;
 
 public static class CheckerHandler
 {
-    public static int? StringSum(string str)
+    public static int StringSum(string[] strs)
     {
-        var checker = new CheckerChainOfResponsability().Chain;
-	    var check = checker.CheckString(str);
+        var ck = (new CheckerChainOfResponsability().Chain).CheckString(strs);
+        return ck.Item1 ? strs.Sum(s => int.Parse(s)) : throw new Exception(ck.Item2);
+    }
 
-        if (!check.Item1) 
-	    {
-            Console.WriteLine(check.Item2);
-            return null;
-            // throw new Exception(check.Item2); 
-        }
-
-        return str.Split(',').Select(s => int.Parse(s)).Sum();
+    public static int StringSum(string str, string separator = ",")
+    {
+        return StringSum(str.Split(separator));
     }
 }

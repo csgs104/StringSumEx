@@ -5,13 +5,13 @@ namespace StringCheckSumSolution.Checkers;
 
 public class LengthChecker : Checker
 {
-    public override (bool, string) CheckString(string str)
+    public override (bool, string) CheckString(string[] strs)
     {
-        if (str.Split(',').Length == 2)
+        if (strs.Length == 2)
         {
             if (_successor is not null)
             {
-                return _successor.CheckString(str);
+                return _successor.CheckString(strs);
             }
             return (true, "Two Strings");
         }

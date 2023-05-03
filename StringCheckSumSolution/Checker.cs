@@ -11,5 +11,5 @@ public abstract class Checker : IChecker
         _successor = successor;
     }
 
-    public abstract (bool, string) CheckString(string str);
+    public abstract (bool, string) CheckString(string[] strs);
 }

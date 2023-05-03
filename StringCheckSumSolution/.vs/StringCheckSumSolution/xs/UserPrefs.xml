@@ -1,32 +1,22 @@
 ﻿<Properties StartupConfiguration="{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Checker.cs">
-    <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="ParseChecker.cs" Line="1" Column="1" />
-      <File FileName="NumberChecker.cs" Line="1" Column="1" />
-      <File FileName="LengthChecker.cs" Line="1" Column="1" />
-      <File FileName="IChecker.cs" Line="1" Column="1" />
-      <File FileName="CheckerHandler.cs" Line="1" Column="1" />
-      <File FileName="CheckerChainOfResponsability.cs" Line="1" Column="1" />
-      <File FileName="Checker.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StringCheckSumSolution PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StringCheckSumSolution" expanded="True">
             <Node name="StringCheckSumSolution" expanded="True">
-              <Node name="Checker.cs" selected="True" />
+              <Node name="Checkers" expanded="True">
+                <Node name="ParseChecker.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.StringCheckSumSolution PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -5,15 +5,13 @@ namespace StringCheckSumSolution.Checkers;
 
 public class NumberChecker : Checker
 {
-    public override (bool, string) CheckString(string str)
+    public override (bool, string) CheckString(string[] strs)
     {
-        var strs = str.Split(',');
-
         if (int.TryParse(strs[0], out _) && int.TryParse(strs[1], out _))
         {
             if (_successor is not null)
             {
-                return _successor.CheckString(str);
+                return _successor.CheckString(strs);
             }
             return (true, "Two Numbers");
         }
