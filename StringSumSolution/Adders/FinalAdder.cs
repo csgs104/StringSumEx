@@ -1,6 +1,7 @@
 ﻿using System;
+using StringSumSolution;
 
-namespace StringSumSolution;
+namespace StringSumSolution.Adders;
 
 public class FinalAdder : Adder
 {
@@ -30,4 +31,3 @@ public class FinalAdder : Adder
         return new StringSum(str, null);
     }
 }
-

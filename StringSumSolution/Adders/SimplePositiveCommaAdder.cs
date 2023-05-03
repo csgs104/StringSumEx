@@ -1,5 +1,7 @@
 ﻿using System;
-namespace StringSumSolution;
+using StringSumSolution;
+
+namespace StringSumSolution.Adders;
 
 public class SimplePositiveCommaAdder : Adder
 {
@@ -17,4 +19,3 @@ public class SimplePositiveCommaAdder : Adder
         return new StringSum(str, null);
     }
 }
-

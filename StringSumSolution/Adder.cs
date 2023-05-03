@@ -2,7 +2,7 @@
 
 namespace StringSumSolution;
 
-public abstract class Adder
+public abstract class Adder : IAdder
 {
     protected Adder? _successor;
 
@@ -13,4 +13,3 @@ public abstract class Adder
 
     public abstract StringSum ProcessStringSum(string str);
 }
-

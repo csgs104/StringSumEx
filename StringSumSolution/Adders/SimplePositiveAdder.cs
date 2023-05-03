@@ -1,5 +1,7 @@
 ﻿using System;
-namespace StringSumSolution;
+using StringSumSolution;
+
+namespace StringSumSolution.Adders;
 
 public class SimplePositiveAdder : Adder
 {

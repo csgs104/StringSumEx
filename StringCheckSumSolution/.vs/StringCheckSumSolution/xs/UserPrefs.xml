@@ -1,28 +1,32 @@
 ﻿<Properties StartupConfiguration="{0DE3DD00-02E5-4268-9DE2-58C37DBEB93E}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CheckerChainOfResponsability.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Checker.cs">
     <Files>
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Checker.cs" Line="9" Column="38" />
-      <File FileName="LenghtChecker.cs" Line="10" Column="10" />
-      <File FileName="NumberChecker.cs" Line="15" Column="36" />
-      <File FileName="ParseChecker.cs" Line="3" Column="1" />
-      <File FileName="CheckerChainOfResponsability.cs" Line="23" Column="2" />
+      <File FileName="ParseChecker.cs" Line="1" Column="1" />
+      <File FileName="NumberChecker.cs" Line="1" Column="1" />
+      <File FileName="LengthChecker.cs" Line="1" Column="1" />
+      <File FileName="IChecker.cs" Line="1" Column="1" />
+      <File FileName="CheckerHandler.cs" Line="1" Column="1" />
+      <File FileName="CheckerChainOfResponsability.cs" Line="1" Column="1" />
+      <File FileName="Checker.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StringCheckSumSolution" expanded="True">
-            <Node name="StringCheckSumSolution" expanded="True" />
+            <Node name="StringCheckSumSolution" expanded="True">
+              <Node name="Checker.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.StringCheckSumSolution PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StringCheckSumSolution PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

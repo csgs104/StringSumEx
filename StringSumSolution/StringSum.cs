@@ -18,4 +18,3 @@ public class StringSum
 
     public override string ToString() => $"{nameof(Numbers)}: {Numbers} => {nameof(Sum)}: {Sum}";
 }
-

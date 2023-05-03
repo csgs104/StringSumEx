@@ -1,6 +1,7 @@
 ﻿using System;
+using StringSumSolution;
 
-namespace StringSumSolution;
+namespace StringSumSolution.Adders;
 
 public class StupidAdder : Adder
 {
