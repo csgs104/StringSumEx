@@ -2,7 +2,7 @@
 
 namespace StringCheckSumSolution;
 
-public abstract class Checker
+public abstract class Checker : IChecker
 {
     protected Checker? _successor;
 
@@ -11,5 +11,5 @@ public abstract class Checker
         _successor = successor;
     }
 
-    public abstract (bool, string) ProcessString(string str);
+    public abstract (bool, string) CheckString(string str);
 }
