@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Checkers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Checkers\" />
+  </ItemGroup>
 </Project>

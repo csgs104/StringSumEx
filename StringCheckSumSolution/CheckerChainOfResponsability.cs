@@ -1,4 +1,5 @@
 ﻿using System;
+using StringCheckSumSolution.Checkers;
 
 namespace StringCheckSumSolution;
 

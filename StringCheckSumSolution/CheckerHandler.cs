@@ -13,7 +13,6 @@ public static class CheckerHandler
 	    {
             Console.WriteLine(check.Item2);
             return null;
-
             // throw new Exception(check.Item2); 
         }
 

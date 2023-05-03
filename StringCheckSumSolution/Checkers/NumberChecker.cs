@@ -1,6 +1,7 @@
 ﻿using System;
+using StringCheckSumSolution;
 
-namespace StringCheckSumSolution;
+namespace StringCheckSumSolution.Checkers;
 
 public class NumberChecker : Checker
 {

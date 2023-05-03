@@ -1,6 +1,7 @@
 ﻿using System;
+using StringCheckSumSolution;
 
-namespace StringCheckSumSolution;
+namespace StringCheckSumSolution.Checkers;
 
 public class LengthChecker : Checker
 {
@@ -17,4 +18,3 @@ public class LengthChecker : Checker
         return (false, "Not Two Strings");
     }
 }
-
