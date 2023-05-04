@@ -21,4 +21,23 @@ public class CheckerChainOfResponsability
 
         _chain = checker0;
     }
+
+    public CheckerChainOfResponsability(LengthChecker ck0, IntegerChecker ck1, PositiveChecker ck2)
+    {
+        ck0.SetSuccessor(ck1);
+        ck1.SetSuccessor(ck2);
+        ck2.SetSuccessor(null);
+        _chain = ck0;
+    }
+
+    public CheckerChainOfResponsability(IList<Checker> cks)
+    {
+        for (int c = 0; c < (cks.Count - 1); c++)
+        {
+            cks[c].SetSuccessor(cks[c + 1]);
+	    }
+        cks.Last().SetSuccessor(null);
+
+        _chain = cks[0];
+    }
 }
