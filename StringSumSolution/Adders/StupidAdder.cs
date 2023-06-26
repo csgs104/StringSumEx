@@ -1,7 +1,4 @@
-﻿using System;
-using StringSumSolution;
-
-namespace StringSumSolution.Adders;
+﻿namespace StringSumSolution.Adders;
 
 public class StupidAdder : Adder
 {

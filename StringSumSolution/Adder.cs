@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace StringSumSolution;
+﻿namespace StringSumSolution;
 
 public abstract class Adder : IAdder
 {

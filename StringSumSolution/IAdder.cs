@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace StringSumSolution;
+﻿namespace StringSumSolution;
 
 public interface IAdder
 {

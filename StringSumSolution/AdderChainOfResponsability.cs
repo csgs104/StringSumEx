@@ -1,7 +1,6 @@
-﻿using System;
-using StringSumSolution.Adders;
+﻿namespace StringSumSolution;
 
-namespace StringSumSolution;
+using StringSumSolution.Adders;
 
 public class AdderChainOfResponsability
 {
